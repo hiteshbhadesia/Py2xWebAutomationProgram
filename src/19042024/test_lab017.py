@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 
 # @pytest.mark.smoke
-def test_vwologin_negative_tc():
+def test_katalon_negative_tc():
     driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 

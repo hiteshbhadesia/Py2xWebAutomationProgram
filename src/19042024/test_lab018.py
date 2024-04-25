@@ -11,7 +11,7 @@ from allure_commons.types import AttachmentType
 @pytest.mark.smoke
 @allure.title("Verify that Login is working in Cura website")
 @allure.description("TC#1 - Simple Login check on CURA katalong Website.")
-def test_vwologin_negative_tc():
+def test_katalon_negative_tc():
     driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
 
