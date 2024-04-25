@@ -31,8 +31,8 @@ def test_vwologin():
     #  //input[@type="email"] - Not Recom.
     #  //input[@data-qa="hocewoqisi"] - Custom A
 
-    make_appoitnment_btn = driver.find_element(By.XPATH, "//input[@name='username']")
-    make_appoitnment_btn.send_keys("admin")
+    make_appointnment_btn = driver.find_element(By.XPATH, "//input[@name='username']")
+    make_appointnment_btn.send_keys("admin")
 
     allure.attach(driver.get_screenshot_as_png(), name="login-screenshot", attachment_type=AttachmentType.PNG)
 
